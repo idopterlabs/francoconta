@@ -111,3 +111,33 @@ p {
     font-size: 1rem;
   }
 }
+
+.footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.footer-content p {
+  margin: 0.2em 0;
+  font-size: 0.9em;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-row .logo {
+  max-width: 60px;
+  margin-bottom: 0;
+}
+
+.footer-row p {
+  margin: 0;
+  font-size: 0.9em;
+}
